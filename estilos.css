@@ -1,0 +1,40 @@
+body {
+    background-image: 
+      url('https://img.freepik.com/fotos-gratis/beton-cinza-fundo-parede-textura-copia-spase_185452-292.jpg?size=626&ext=jpg');
+    background-size: auto 100vh;
+    font-family: Verdana;
+    height: 100vh
+  }
+  
+  .menu{
+    backdround-image: url('https://img.freepik.com/fotos-gratis/beton-cinza-fundo-parede-textura-copia-spase_185452-292.jpg?size=626&ext=jpg')
+    color: black;
+  }
+  .menu ul{
+    display: flex;
+    justify-content: space-around
+  }
+  
+  .menu li{
+   list-style: "JP "; 
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: Darkred;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    color: black;
+    font-style: Italic
+  }
